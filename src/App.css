@@ -9,20 +9,42 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
   color: white;
+  padding: 10px 20px;
 }
 
 .App-title {
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
+.App-title small {
+  font-size: 0.7em;
+  font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.initial {
+  font-size: large;
+  text-align: center;
+  width: 100%;
+}
+
+.initial table {
+  margin: 20px auto;
+}
+
+.puzzle-input {
+  font-size: 1.2em;
+  width: 2em;
+}
+
+.calculate-button {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1.5em;
+  padding: 7px 20px;
+}
+
+.solution {
+  margin: 40px 40px 0;
 }
