@@ -48,3 +48,10 @@
 .solution {
   margin: 40px 40px 0;
 }
+
+.solution table td,
+.solution table th {
+  padding: 5px 2px;
+  text-align: left;
+  vertical-align: top;
+}
